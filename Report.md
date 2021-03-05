@@ -20,20 +20,19 @@ The state space has 37 dimensions and contains the agent's velocity, along with 
 
 The task is episodic, and in order to solve the environment, your agent must get an average score of +13 over 100 consecutive episodes.
 
-### Getting Started
+### Training
 
-1. Download the environment from one of the links below.  You need only select the environment that matches your operating system:
-    - Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip)
-    - Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana.app.zip)
-    - Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86.zip)
-    - Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip)
-    
-    (_For Windows users_) Check out [this link](https://support.microsoft.com/en-us/help/827218/how-to-determine-whether-a-computer-is-running-a-32-bit-version-or-64) if you need help with determining if your computer is running a 32-bit version or 64-bit version of the Windows operating system.
+Below shows average score the agent achieved every 100 episodes. The increasing score value indicates the agent is learning about the environment and adapting his actions to maximise their score. The process took 572 episodes and a total training time of 14 minutes on the udacity workspace with GPU enabled to achieve an average score of 13.03.
 
-    (_For AWS_) If you'd like to train the agent on AWS (and have not [enabled a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md)), then please use [this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux_NoVis.zip) to obtain the environment.
 
-2. Place the file in the DRLND GitHub repository, in the `p1_navigation/` folder, and unzip (or decompress) the file. 
+```
+Episode 100	Average Score: 0.21
+Episode 200	Average Score: 2.22
+Episode 300	Average Score: 5.70
+Episode 400	Average Score: 9.38
+Episode 500	Average Score: 11.48
+Episode 572	Average Score: 13.03
+Environment solved in 472 episodes!	Average Score: 13.03
+```
 
-### Instructions
-
-Follow the instructions in `Navigation.ipynb` to get started with training your own agent!  
+![Screenshot 2021-03-05 at 10 30 37](https://user-images.githubusercontent.com/74315440/110096061-d4e44800-7d9d-11eb-9d32-edd912059548.png)
