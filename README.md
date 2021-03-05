@@ -36,6 +36,6 @@ The task is episodic, and in order to solve the environment, your agent must get
 
 ### Instructions
 
-Follow `Navigation.ipynb` to get started with training your own agent!  
-`model.py` contains the architecture used to solve this problem
-`dqn_agent.py` contains the agent class which has functions relating to how the agent interacts and learns from the environment, and also the replay buffer class used to store the agents experience.
+- Follow `Navigation.ipynb` to get started with training your own agent!  
+- `model.py` contains the architecture used to solve this problem
+- `dqn_agent.py` contains the agent class which has functions relating to how the agent interacts and learns from the environment, and also the replay buffer class used to store the agents experience.
