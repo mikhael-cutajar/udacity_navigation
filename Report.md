@@ -17,6 +17,17 @@ The state space has 37 dimensions and contains the agent's velocity, along with 
 
 The task is episodic, and in order to solve the environment, your agent must get an average score of +13 over 100 consecutive episodes.
 
+### Model Architecture
+
+The DQN architecture implemented is shown below where fc_units = 512. The model receives information in the form of a vector of size 37 from the environment and outputs a vector of size 4 from its output layer containing values for each action.
+
+```
+self.fc1 = nn.Linear(state_size, fc_units)
+self.fc2 = nn.Linear(fc_units, fc_units)
+self.fc3 = nn.Linear(fc_units, fc_units)
+self.fc4 = nn.Linear(fc_units, action_size)
+```
+
 ### Hyperparameters
 
 The hyperparameters are identical to a previous implementation and worked well for this agent.
