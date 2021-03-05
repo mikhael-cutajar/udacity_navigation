@@ -6,7 +6,7 @@
 
 ### Introduction
 
-For this project, you will train an agent to navigate (and collect bananas!) in a large, square world.  
+In this project, a model was trained to navigate a large square world to collect different bananas using a DQN.
 
 ![Trained Agent][image1]
 
