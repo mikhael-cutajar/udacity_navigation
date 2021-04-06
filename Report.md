@@ -64,4 +64,3 @@ Environment solved in 472 episodes!	Average Score: 13.03
 Possible future work could including: 
 - training the agent with the pixels as input data (which would more closely mimic how we would play the game)
 - Experimenting with policy based methods and comparing the two approaches.
-
